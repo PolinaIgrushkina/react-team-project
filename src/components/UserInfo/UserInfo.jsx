@@ -3,13 +3,13 @@ import { logoutUserOperation } from 'redux/Auth/auth-operations';
 import burgerMenu from '../../assets/images/burger-back/burger-menu.svg';
 import s from './Userinfo.module.scss';
 
-function UserInfo() {
+function UserInfo({ clickBurgerMenu }) {
   const dispatch = useDispatch();
 
   const username = useSelector(state => state.user?.username);
   return (
     <div className={s.UserInfo}>
-      <p className={s.UserInfoText}>Hello: {username}</p>
+      <p className={s.UserInfoText}>{username}</p>
       <button
         type="button"
         onClick={() => dispatch(logoutUserOperation())}
@@ -17,7 +17,7 @@ function UserInfo() {
       >
         Exit
       </button>
-      <button className={s.burgerMenu}>
+      <button className={s.burgerMenu} onClick={clickBurgerMenu}>
         <img src={burgerMenu} alt="burgerMenu" />
       </button>
     </div>

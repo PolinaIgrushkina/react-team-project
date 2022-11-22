@@ -11,20 +11,40 @@ export default function Navigation() {
       {token ? (
         <nav className={css.navigationBackColor}>
           <div className={css.navigation}>
-            <NavLink to="/dairy" className={css.first}>
+            <NavLink
+              to="/dairy"
+              className={({ isActive }) =>
+                `${css.first} ${isActive ? css.active : ''}`
+              }
+            >
               Diary
             </NavLink>
-            <NavLink to="/calculator" className={css.first}>
+            <NavLink
+              to="/calculator"
+              className={({ isActive }) =>
+                `${css.second} ${isActive ? css.active : ''}`
+              }
+            >
               Calculator
             </NavLink>
           </div>
         </nav>
       ) : (
         <nav className={css.navigation}>
-          <NavLink to="/signin" className={css.second}>
+          <NavLink
+            to="/signin"
+            className={({ isActive }) =>
+              `${css.first} ${isActive ? css.active : ''}`
+            }
+          >
             Sign in
           </NavLink>
-          <NavLink to="/registration" className={css.second}>
+          <NavLink
+            to="/registration"
+            className={({ isActive }) =>
+              `${css.second} ${isActive ? css.active : ''}`
+            }
+          >
             Registration
           </NavLink>
         </nav>
