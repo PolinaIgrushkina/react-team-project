@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-team-project/static/css/main.19e64dd3.css",
-    "main.js": "/react-team-project/static/js/main.89bb99ef.js",
+    "main.js": "/react-team-project/static/js/main.b72bfe95.js",
     "static/media/fruts-comp-2x.png": "/react-team-project/static/media/fruts-comp-2x.362047981bdb62f9caab.png",
     "static/media/fruits2-tab-2x.png": "/react-team-project/static/media/fruits2-tab-2x.a3abe27e67ff4847bf82.png",
     "static/media/fruts-comp-1x.png": "/react-team-project/static/media/fruts-comp-1x.2281f58da95a46e4273c.png",
@@ -16,10 +16,10 @@
     "static/media/exitBurger.svg": "/react-team-project/static/media/exitBurger.44d37eeb9e22a80e1ff4aeb8dfbf31ae.svg",
     "static/media/burger-menu.svg": "/react-team-project/static/media/burger-menu.ad1b9ef925490361f5d1248d4b29075f.svg",
     "main.19e64dd3.css.map": "/react-team-project/static/css/main.19e64dd3.css.map",
-    "main.89bb99ef.js.map": "/react-team-project/static/js/main.89bb99ef.js.map"
+    "main.b72bfe95.js.map": "/react-team-project/static/js/main.b72bfe95.js.map"
   },
   "entrypoints": [
     "static/css/main.19e64dd3.css",
-    "static/js/main.89bb99ef.js"
+    "static/js/main.b72bfe95.js"
   ]
 }
